@@ -13,6 +13,7 @@ function updateSlide() {
 
 const totalSlides = slide.children.length;
 next.onclick = () => {
+    
     if (currentIndex < totalSlides - 1) {
         currentIndex++;
         width = currentIndex * 550;
