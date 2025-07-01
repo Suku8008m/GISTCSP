@@ -11,6 +11,7 @@ function updateSlide() {
 }
 
 
+
 const totalSlides = slide.children.length;
 next.onclick = () => {
     
